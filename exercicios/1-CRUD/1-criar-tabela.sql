@@ -1,3 +1,6 @@
 -- Crie uma nova tabela no banco de dados
-select *
-from tracks;
+CREATE TABLE salario_base(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+nivel TEXT,
+salario INTEGER
+);
